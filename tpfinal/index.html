@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+    <!--ARRANCAN METADATOS-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>tpfinal-aventura+juego</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <!--TERMINAN METADATOS-->
+  <body>
+
+    <div class="pers-container">
+ <!---------------------------------NAVEGADOR--------------------------------->
+
+    <nav class="navbar bg-body-tertiary ">
+        <div class="container-fluid card-container">
+
+          <a class="navbar-brand d-flex align-items-center" href="#">
+
+            <img src="imagenes/bunny.png" alt="" width="auto" height="50" class="d-inline-block align-text-center me-2">
+
+            <h1 class="mb-0">Alicia en el país de las maravillas</h1>
+          </a>
+
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#001">Equipo de Trabajo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#002">Bitácora</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#003">Juega!</a>
+            </li>
+          </ul>
+
+        </div>
+    </nav>
+
+ <!---------------------------------PRESENTACIÓN--------------------------------->
+    <div class="container-fluid text-left">
+      <div class="row">
+
+        <div class="col-8 personalizado ">
+          <article>
+          <h2 id="001">Presentación</h2>
+              <p>
+                  Mi nombre es Maria, soy Gestora Cultural y actualmente estudio Diseño Multimedial en la Facultad de Artes de la UNLP. Ésta aventura gráfica, basada en el cuento Alicia en el País de las Maravillas, es parte del trabajo final para la materia Tecnología Multimedia I. 
+
+              </p>
+      </article>
+    </div>
+
+        <div class="col-4 personalizado center-image"><img src="imagenes/perfil.png" alt="" class="tam-img redondear"  ></div>
+
+      </div>
+    </div>
+
+    <div class="my-4"></div>
+
+ <!---------------------------------BITÁCORA--------------------------------->
+    <div class="container-fluid text-left">
+      <div class="row">
+
+        <div class="col-4 personalizado center-image"><img src="imagenes/libro.png"alt="" class="tam-img redondear"> </div>
+       
+        <div class="col-8 personalizado"> <h2 id="002"> Como hice el trabajo</h2>
+        <article >
+          <p>Para realizar el trabajo primero elegi el cuento de Alicia en el Pais de las Maravillas de Lewis Carroll, fue publicada por primera vez en 1865. Busque diversas adaptaciones ya que esto me ayudaría a reducir el contenido original que fue escrito en formato novela y finalmente me quedé con la versión realizada por Nicolás Schuff con ilustraciones de Carlos Higueras. Aprovechando el contenido adaptado a los mas pequeños en formato cuento utilicé citas textuales de dicha adaptación.
+            <br><br>Para quien no lo conoce o no recuerda, la trama sigue a una niña llamada Alicia, que cae por la madriguera de un conejo blanco y se encuentra en un mundo extraño y fantástico. En su travesía, interactúa con personajes singulares como el Sombrerero Loco, la Reina de Corazones, el Gato de Cheshire y muchos más. El País de las Maravillas es un lugar donde las reglas lógicas y la realidad convencional se desafían constantemente. 
+            <br><br>
+              La historia es conocida por su estilo de cuento de hadas absurdo y su enfoque en la lógica ilógica. A medida que Alicia se aventura por este mundo, enfrenta situaciones desconcertantes, resuelve acertijos y desafía las expectativas convencionales. A menudo se interpreta como una obra que satiriza las convenciones sociales, las reglas absurdas y la naturaleza misma del cuento de hadas.
+            El relato original incluye una secuela llamada "A través del espejo y lo que Alicia encontró allí", que presenta a Alicia en un mundo reflejado a través de un espejo, con reglas aún más extrañas y personajes igualmente extravagantes
+          </p>
+        </article>
+      </div>
+      </div>
+    </div>
+
+    <div class="my-4"></div>
+
+<div class="container-fluid">
+
+<div class="row">
+
+<div class="col-12 personalizado">
+
+  <article>
+    <p>Tal vez lo mas difícil (a parte de sentarme a escribir el código) fue seleccionar porciones chicas de texto que me permitieran contar la historia sin perder su idea principal.
+
+      Las historias al estilo "elige tu propio camino" siempre fueron algo que llamó la atención del publico ya que son un tipo de narrativa interactiva. Este enfoque interactivo ha sido popular en libros, especialmente en la literatura juvenil, así como en juegos de mesa, videojuegos y aplicaciones interactivas en línea. La esencia de estas historias radica en brindar a los participantes la sensación de control y agencia sobre el curso de la narrativa, proporcionando una experiencia única y personalizada en cada lectura o juego. </p>
+
+
+<div class="center-image"><img src="imagenes/guionfinal.png" alt="" class="tam-img"></div>
+
+    <p> Por lo tanto la idea principal al diseñar esta <b>aventura gráfica</b> es ofrecer opciones al lector en puntos clave de la trama. Dependiendo de la elección que haga el lector, la historia se desarrolla de manera diferente, con diversos giros y desenlaces posibles. En este caso primero se diseñó un esquema de pantallas para evidenciar los distintos caminos y en consecuencia finales.
+      Una vez terminada la diagramación vino la parte complicada, escribir el codigo. El trabajo original se realizo en Java y luego se trasladó a P5JS, si bien el cambio de lenguaje fue un desafío la posibilidad de modularizar el código en clases y objetos permite un mejor control de cambios y un debuggeo mas ágil.
+    Por último se agregó un minijuego que es parte de la historia principal, en mi caso Alicia debe capturar al Conejo Blanco.</p>
+
+  </article>
+</div>
+</div>
+</div>
+
+<div class="my-4"></div>
+
+
+ <!---------------------------------JUEGO--------------------------------->
+<div class="container-fluid">
+
+<div class="row">
+
+<div class="col-12 personalizado">
+<article id="003">
+
+  <a class="center-image" data-bs-toggle="modal" data-bs-target="#juego"><img src="imagenes/game.png" width="600" height="600" alt=""><a>
+
+  <div class="modal fade" id="juego" tabindex="-1" aria-labelledby="miModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-pers">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="miModalLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <iframe src="tpfinal/index.html" frameborder="0" width="620" height="620"></iframe> 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<footer> Realización: Maria Inés Junco </footer>
+</div>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  </body>
+</html>
+
+

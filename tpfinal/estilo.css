@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+body{
+
+    background-color: rgb(255, 255, 255);
+
+}
+
+h1 {
+
+    text-align: center;
+    font-family:'Yanone Kaffeesatz', sans-serif;
+    font-weight: 600;
+
+}
+
+h2{
+    font-family:'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    margin-top: 2%;
+}
+
+p{
+
+    font-family:'Hepta Slab', serif;;
+
+}
+
+.card-container {
+    background-color: #ffd8ef; /* Cambia el color de fondo según tus preferencias */
+    
+  }
+
+.center-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.personalizado {
+
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(248, 189, 237, 0.233);
+}
+
+.redondear {
+
+border-radius: 5%;
+
+}
+article p {
+
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+article{
+
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.tam-img {
+    max-width: 50%;
+    height: auto;
+  }
+
+.pers-container {
+    margin-left: 20%;
+    margin-right: 20%;
+    max-width: 100%; /* Ajusta el ancho máximo según tus preferencias */
+}
+
+.modal-pers {
+
+max-width: 620px;
+height: auto;
+font-family: 'Nanum Gothic', sans-serif;
+
+
+}
+
+.nav {
+    --bs-nav-link-color: rgb(28, 27, 27);
+    --bs-nav-link-hover-color: rgb(203, 89, 142);
+    --bs-nav-link-disabled-color: grey;
+}
+
+footer{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #ffd8ef;
+    width: fill;
+}
+
+html{
+
+    scroll-behavior: smooth;
+
+}
